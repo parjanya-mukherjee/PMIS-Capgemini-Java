@@ -1,0 +1,33 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "LooselyCoupledExample",
+            "request": "launch",
+            "mainClass": "com.parjanya.demo.LooselyCoupledExample",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "DemoApplication",
+            "request": "launch",
+            "mainClass": "com.parjanya.demo.DemoApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "DateExplorer",
+            "request": "launch",
+            "mainClass": "DateExplorer",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch DemoApplication",
+            "request": "launch",
+            "mainClass": "com.parjanya.demo.DemoApplication",
+            "projectName": "demo"
+        }
+    ]
+}
