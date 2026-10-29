@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "abc",
+            "request": "launch",
+            "mainClass": "abc",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Multithreading",
+            "request": "launch",
+            "mainClass": "practice.Multithreading",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "LooselyCoupledExample",
             "request": "launch",
             "mainClass": "com.parjanya.demo.LooselyCoupledExample",
