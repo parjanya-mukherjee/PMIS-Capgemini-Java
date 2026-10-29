@@ -3,6 +3,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BeanScopeExample",
+            "request": "launch",
+            "mainClass": "com.parjanya123.demo.basic.BeanScopeExample",
+            "projectName": "com.parjanya123-demo"
+        },
+        {
+            "type": "java",
+            "name": "DemoApplication",
+            "request": "launch",
+            "mainClass": "com.parjanya123.demo.DemoApplication",
+            "projectName": "com.parjanya123-demo"
+        },
+        {
+            "type": "java",
+            "name": "BeanMethodExample",
+            "request": "launch",
+            "mainClass": "com.parjanya123.demo.basic.BeanMethodExample",
+            "projectName": "com.parjanya123-demo"
+        },
+        {
+            "type": "java",
+            "name": "BeanMethodExample",
+            "request": "launch",
+            "mainClass": "main.java.com.parjanya123.demo.basic.BeanMethodExample",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "abc",
             "request": "launch",
             "mainClass": "abc",

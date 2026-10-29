@@ -150,7 +150,7 @@ public class Multithreading {
             e.printStackTrace();
         }
         Runnable obj2 = new B();
-        Thread t1 = new Thread();
+        Thread t1 = new Thread();//
         Thread t2 = new Thread();
         
         System.out.println(obj1.getPriority());
