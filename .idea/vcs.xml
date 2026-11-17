@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TNSIF_2026-11-02/University-Placement_Interview-Drive" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TNSIF_2026-11-06/PMIS-CapGemini" vcs="Git" />
   </component>
 </project>

@@ -1,19 +1,30 @@
 package com.parjanya30.demo.entity;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
 /*
  * This class represents one course in our application.
  *
- * It is called an entity because it represents data that we want
- * to create, read, update, and delete through our REST API.
+ * @Entity maps this Java class to a database table.
+ * @Table specifies the MySQL table name.
  */
+
+@Entity
+@Table(name = "courses")
 public class Course {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String title;
     private String description;
 
     public Course() {
-        // Spring uses this empty constructor when it reads JSON from a request.
     }
 
     public Course(Long id, String title, String description) {
